@@ -10,8 +10,11 @@ jobs:
 
 
     steps:
-      - name: 'Testing'
-        run: pwd
-    
       - name: 'printing'
-        run: echo mOhammed
+        run: ls
+    
+      - uses: actions/checkout@v3
+
+      - name: 'printinglf;sdlmgsf;lgd,'
+        run: ls
+  
