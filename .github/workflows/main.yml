@@ -10,11 +10,9 @@ jobs:
 
 
     steps:
-      - name: 'printing'
-        run: ls
-    
+
       - uses: actions/checkout@v3
 
-      - name: 'printinglf;sdlmgsf;lgd,'
-        run: ls
+      - name: 'Docker login'
+        run: docker login --username ${{secrets.DOCKER_USERNAME}} --password ${{secrets.DOCKER_TOKEN}}
   
